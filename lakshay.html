@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Troll Run | Lakshay</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #101010;
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+        }
+
+        .logo {
+            color: #ffdf35;
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        header span {
+            color: #aaa;
+            font-size: 14px;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background:
+                radial-gradient(circle at center, #40340b 0%, #101010 65%);
+        }
+
+        .banana {
+            font-size: 85px;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            color: #ffdf35;
+            letter-spacing: 4px;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(42px, 8vw, 85px);
+            font-weight: 900;
+            line-height: 1.05;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #ffdf35;
+        }
+
+        .description {
+            color: #aaa;
+            max-width: 520px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .play-btn {
+            background: #ffdf35;
+            color: #111;
+            padding: 16px 35px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .play-btn:hover {
+            background: white;
+            transform: translateY(-4px);
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 50px 8%;
+        }
+
+        .card {
+            background: #1c1c1c;
+            border: 1px solid #333;
+            border-radius: 18px;
+            padding: 30px;
+            width: 260px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            border-color: #ffdf35;
+            transform: translateY(-7px);
+        }
+
+        .card h2 {
+            color: #ffdf35;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: #aaa;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #777;
+            border-top: 1px solid #292929;
+            font-size: 13px;
+        }
+
+        footer strong {
+            color: #ffdf35;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🍌 BANANA RUN</div>
+        <span>A Lakshay contribution</span>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <div class="banana">🍌</div>
+
+            <p class="tag">READY FOR THE CHAOS?</p>
+
+            <h1>
+                BANANA<br>
+                <span>TROLL RUN</span>
+            </h1>
+
+            <p class="description">
+                Enter a world of fun, chaos and endless adventure.
+                Are you ready to take on the challenge?
+            </p>
+
+            <a class="play-btn"
+               href="https://banana-troll-run.vercel.app/">
+                PLAY THE GAME →
+            </a>
+
+        </section>
+
+        <section class="cards">
+
+            <div class="card">
+                <h2>🍌 THE BANANA</h2>
+                <p>
+                    The star of this crazy adventure.
+                    Bring on the banana energy!
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>⚡ THE CHALLENGE</h2>
+                <p>
+                    Get ready for a fun experience.
+                    Every moment brings something new.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>🔥 THE CHAOS</h2>
+                <p>
+                    Stay sharp, enjoy the ride
+                    and embrace the madness.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        Designed by <strong>Lakshay</strong> |
+        BANANA TROLL RUN
+    </footer>
+
+</body>
+</html>
